@@ -1,0 +1,33 @@
+.achievement_wrapper {
+  background-image: url("/images/care4.jpg");
+  background-size: cover;
+  height: 60vh;
+
+  .achievement_container {
+    background-color: #ffd000;
+    padding: 1rem 5rem;
+    z-index: 1;
+    opacity: 0.8;
+    height: inherit;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+
+    .section {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .number {
+      font-size: 2rem;
+      margin-top: 2rem;
+    }
+
+    .title {
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+  }
+}

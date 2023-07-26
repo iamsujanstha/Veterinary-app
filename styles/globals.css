@@ -15,12 +15,11 @@ a {
   box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (max-width: 600px) {
   html {
-    color-scheme: dark;
+    width: 100%;
   }
   body {
     color: white;
-    background: black;
   }
-}
+} */

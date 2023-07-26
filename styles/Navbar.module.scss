@@ -1,0 +1,44 @@
+@import "@/styles/variables.module.scss";
+
+.navbar_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 4rem;
+  height: 5rem;
+  z-index: 100;
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  color: white;
+  font-weight: 600;
+  background-color: #edb800;
+
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+    nav {
+      ul {
+        display: flex;
+        gap: 1rem;
+        a {
+          list-style: none;
+          display: inline-block;
+          margin-left: 1rem;
+          font-size: 1.1rem;
+
+          &:hover {
+            cursor: pointer;
+            color: #000;
+            opacity: 0.6;
+          }
+        }
+      }
+    }
+  }
+}

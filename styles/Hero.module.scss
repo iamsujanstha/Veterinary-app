@@ -1,0 +1,64 @@
+.hero_wrapper {
+  background-color: #ffd000;
+
+  .hero_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2rem 4rem;
+    align-items: center;
+    color: white;
+
+    .content_wrapper {
+      display: flex;
+      flex-direction: column;
+      gap: 0.4rem;
+      flex-grow: 1;
+      width: 30%;
+
+      h1 {
+        font-size: 3rem;
+      }
+    }
+
+    .image_wrapper {
+      display: flex;
+      flex-grow: 1;
+      justify-content: center;
+    }
+
+    .button_container {
+      display: flex;
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+
+    // Media Query for responsiveness
+    @media (max-width: 768px) {
+      flex-direction: column;
+      padding: 2rem 1rem;
+      width: 100%;
+
+      .content_wrapper {
+        width: 100%;
+        text-align: center;
+      }
+
+      .image_wrapper {
+        width: 100%;
+      }
+
+      .button_container {
+        flex-direction: column;
+        align-items: center;
+
+        button {
+          margin-bottom: 0.5rem;
+        }
+      }
+
+      // Set background color to cover full width
+      background-color: #ffd000;
+    }
+  }
+}

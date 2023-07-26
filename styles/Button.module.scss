@@ -1,0 +1,26 @@
+.button_wrapper {
+  .button {
+    border-radius: 6px;
+    padding: 0.7rem 1rem;
+    outline: none;
+    border: 2px solid transparent;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+      border: 2px solid white;
+    }
+
+    &.btn_outline {
+      border: 2px solid white;
+      background-color: transparent;
+
+      &:hover {
+        border: 2px solid #00bebd;
+      }
+    }
+  }
+}

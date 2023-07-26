@@ -1,0 +1,17 @@
+$yellow-light: #ffd000;
+$yellow-dark: #edb800;
+$purple: #312b3c;
+$teal: #00bebd;
+$white-100: #ffffff;
+$white-200: #ffffed;
+$dark-gray: #33312d;
+
+:export {
+  primaryColor: $yellow-light;
+  secondaryColor: $yellow-dark;
+  purpleColor: $purple;
+  tealColor: $teal;
+  white100Color: $white-100;
+  white200Color: $white-200;
+  darkGrayColor: $dark-gray;
+}

@@ -1,0 +1,24 @@
+/* Logo.module.scss */
+
+/* Assuming you want to center the content in the logo container */
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+
+  .logo_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0;
+    div {
+      font-weight: bold;
+      font-size: 0.9rem;
+      text-transform: uppercase;
+    }
+    p {
+      margin: 0;
+      font-size: 0.7rem;
+    }
+  }
+}

@@ -1,0 +1,28 @@
+.search {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+
+  input[type="search"] {
+    width: 100%;
+    padding: 0.5rem 1rem;
+    background-color: #ffd000;
+    outline: none;
+    font-size: 1rem;
+    transition: all 0.3s ease-in-out;
+    border: none;
+    color: white;
+    font-size: 600;
+    
+    &:focus {
+      border: none;
+    }
+  }
+
+  .icon {
+    position: absolute;
+    background-color: #00bebd;
+    padding: 0.4rem 0.6rem;
+    right: 0;
+  }
+}
